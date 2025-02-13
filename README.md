@@ -24,15 +24,21 @@ The Linux samples are built using makefiles. To use the makefiles, change the cu
 ### Program Output
 
 ./mirrorImage
+
 ./mirrorImage Starting...
 
 GPU Device 0: "Ampere" with compute capability 8.6
 
 NPP Library Version 11.3.3
-  CUDA Driver  Version: 12.0
-  CUDA Runtime Version: 11.3
-  Device 0: <          Ampere >, Compute SM 8.6 detected
+
+	CUDA Driver  Version: 12.0
+  
+	CUDA Runtime Version: 11.3
+  
+	Device 0: <          Ampere >, Compute SM 8.6 detected
+
 mirrorImage opened: <./Lena.pgm> successfully!
+
 Saved image: ./Lena_mirrorImage.pgm
 
 
